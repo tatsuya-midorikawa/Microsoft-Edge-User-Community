@@ -19,4 +19,4 @@ This guide is something that will be built up by Microsoft Edge users, and we wo
 ## Microsoft Edge for Developer
 
 
-===
+---
