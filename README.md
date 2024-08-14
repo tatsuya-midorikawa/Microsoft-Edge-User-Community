@@ -20,3 +20,8 @@ This guide is something that will be built up by Microsoft Edge users, and we wo
 
 
 ---
+
+## Disclaimer
+
+This repo's information is NOT official from Microsoft. No guarantee is made as to the accuracy of the information.
+Therefore, please use the information on this page at your own risk.
