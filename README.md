@@ -9,7 +9,7 @@ This guide is something that will be built up by Microsoft Edge users, and we wo
 
 ## Microsoft Edge for Enterprise
 
-- [Group policies](/enterprise/policies/index.md)
+- [Group policies](/enterprise/policies/index.md) ([ja](/enterprise/policies/ja/index.md))
 
 
 ## Microsoft Edge for Developer
