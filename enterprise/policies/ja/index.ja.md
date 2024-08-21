@@ -12,4 +12,7 @@
 Edge のセキュリティーをより強固にしたい場合、自社の Web システムや現在利用している他社の Web システム、Web サーバーが最新の Web 標準やセキュリティー機能などに対応しているかが重要になってきます。Enterprise システムにおいては、予算や納期などの都合から Legacy な資産を運用し続けなければならないなどの制約が生じがちです。そのため、Edge のセキュリティー レベルをより厳しくすることで、自社の Web システムが意図通りに動作しなくなる可能性があります。例えば、Microsoft Edge Security Baseline v117 においては `AuthSchemes = "ntlm,negotiate"` となっていますが、自社システムが Basic 認証をいまだに利用し続けている場合、当然許可されていないためその Web システムは動作しなくなります。また `DefaultPopupsSetting = (2)` と設定し、ポップアップ ウィンドウの表示をすべてのサイトで禁止するようにした場合、ポップアップを利用して動作させている Web システムが利用できなくなったりもします。このように無闇にセキュリティー レベルを厳しくしてしまうと正常に Web システムが動作しなくなる危険性があるので、実際にグループ ポリシーを検証環境に適用しつつ、動作検証を進める必要があります。
 
 
-## 
+## 参考情報
+
+- [Microsoft Edge - ポリシー](https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-policies)
+- [Windows デバイスで Microsoft Edge ポリシー設定を構成する](https://learn.microsoft.com/ja-jp/deployedge/configure-microsoft-edge)
