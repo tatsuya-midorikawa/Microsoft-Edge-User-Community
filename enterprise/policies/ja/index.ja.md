@@ -18,7 +18,24 @@ Edge のセキュリティーをより強固にしたい場合、自社の Web �
 
 - [Active Directory (AD) を利用したポリシー配布](https://learn.microsoft.com/ja-jp/deployedge/configure-microsoft-edge) 
 - [Microsoft Intune を利用したポリシー配布](https://learn.microsoft.com/ja-jp/mem/intune/configuration/administrative-templates-configure-edge?bc=%2FDeployEdge%2Fbreadcrumb%2Ftoc.json&toc=%2FDeployEdge%2Ftoc.json)
+  - [Intune で Microsoft Edge for Windows を構成する](https://learn.microsoft.com/ja-jp/mem/intune/apps/manage-microsoft-edge-windows)
+  - [Windows デバイス上のマネージド アプリのアプリ構成ポリシーを追加する](https://learn.microsoft.com/ja-jp/mem/intune/apps/app-configuration-policies-managed-app#add-an-app-configuration-policy-for-managed-apps-on-windows-devices)
 - [Microsoft Edge 管理サービスを利用したポリシー配布]((https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-management-service))
+
+
+## 構成できるグループ ポリシーの一覧
+
+### デスクトップ版向けグループ ポリシー
+
+- [Microsoft Edge - ポリシー](https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-policies)
+- [Microsoft Edge - 更新ポリシー](https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-update-policies)
+- [Microsoft Edge WebView2 - ポリシー](https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-webview-policies)
+
+### モバイル版向けグループ ポリシー
+
+- [Microsoft Edge Mobile - ポリシー](https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-mobile-policies)
+- [Intune を使用して iOS と Android で Microsoft Edge を管理する](https://learn.microsoft.com/ja-jp/mem/intune/apps/manage-microsoft-edge)
+- [クライアント アプリの保護ログを確認する](https://learn.microsoft.com/ja-jp/mem/intune/apps/app-protection-policy-settings-log)
 
 
 ## 参考情報
