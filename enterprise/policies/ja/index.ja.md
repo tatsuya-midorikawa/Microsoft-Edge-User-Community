@@ -5,14 +5,24 @@
 いずれにせよ、すべての項目を網羅することを考えるのではなく、必要最低限の項目に絞って適用するグループ ポリシーの検討を進めていくことが肝要です。
 
 
-## グループ ポリシー の構成戦略
+## グループ ポリシーの構成戦略
 
 適用するグループ ポリシーを考える前に、前提として Edge はそのままの状態でも十分セキュアです。その状態からさらにセキュリティー レベルを上げるのか、それともセキュリティー レベルを下げるのか、という観点で戦略を練っていきます。Edge のセキュリティーについては [こちらの公式ページ](https://learn.microsoft.com/ja-jp/deployedge/ms-edge-security-for-business) を参考にしてみると良いでしょう。
 
 Edge のセキュリティーをより強固にしたい場合、自社の Web システムや現在利用している他社の Web システム、Web サーバーが最新の Web 標準やセキュリティー機能などに対応しているかが重要になってきます。Enterprise システムにおいては、予算や納期などの都合から Legacy な資産を運用し続けなければならないなどの制約が生じがちです。そのため、Edge のセキュリティー レベルをより厳しくすることで、自社の Web システムが意図通りに動作しなくなる可能性があります。例えば、Microsoft Edge Security Baseline v117 においては `AuthSchemes = "ntlm,negotiate"` となっていますが、自社システムが Basic 認証をいまだに利用し続けている場合、当然許可されていないためその Web システムは動作しなくなります。また `DefaultPopupsSetting = (2)` と設定し、ポップアップ ウィンドウの表示をすべてのサイトで禁止するようにした場合、ポップアップを利用して動作させている Web システムが利用できなくなったりもします。このように無闇にセキュリティー レベルを厳しくしてしまうと正常に Web システムが動作しなくなる危険性があるので、実際にグループ ポリシーを検証環境に適用しつつ、動作検証を進める必要があります。
 
 
+## グループ ポリシーの構成方法
+
+グループ ポリシーを構成するには、主に以下の 3 つ方法の中から選択します。
+
+- [Active Directory (AD) を利用したポリシー配布](https://learn.microsoft.com/ja-jp/deployedge/configure-microsoft-edge) 
+- [Microsoft Intune を利用したポリシー配布](https://learn.microsoft.com/ja-jp/mem/intune/configuration/administrative-templates-configure-edge?bc=%2FDeployEdge%2Fbreadcrumb%2Ftoc.json&toc=%2FDeployEdge%2Ftoc.json)
+- [Microsoft Edge 管理サービスを利用したポリシー配布]((https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-management-service))
+
+
 ## 参考情報
 
 - [Microsoft Edge - ポリシー](https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-policies)
 - [Windows デバイスで Microsoft Edge ポリシー設定を構成する](https://learn.microsoft.com/ja-jp/deployedge/configure-microsoft-edge)
+- [Microsoft Edge 管理サービス](https://learn.microsoft.com/ja-jp/deployedge/microsoft-edge-management-service)
