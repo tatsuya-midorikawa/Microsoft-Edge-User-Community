@@ -12,7 +12,8 @@ Enterprise mode sitelist 方式は、管理者が作成するサイトリスト 
 
 ### 設定手順
 
-1. サイトリスト (.XML ファイル) を作成する
+1. サイトリスト (.XML ファイル) を作成する - [Enterprise Mode schema v.2 guidance](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-it-pro/internet-explorer-11/ie11-deploy-guide/enterprise-mode-schema-version-2-guidance)
+1. 
 
 
 ## 参考情報
